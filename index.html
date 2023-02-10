@@ -27,13 +27,13 @@
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
-  
+
           <li class="nav-item">
             <a class="nav-link" href="#services">Services</a>
           </li>
-  
+
           <li class="nav-item">
-            <a class="nav-link">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -121,14 +121,14 @@
     </div>
   </div>
 
-  <div id="services"  class="text-center">
+  <div id="services" class="text-center">
     <div class="container">
       <div class="row text-center">
         <h2 class="para-b"><b>Services</b></h2>
       </div>
       <div class="row text-center cards">
         <div class="col-12 col-lg-4 text-center">
-          <div class="card text-center w-100" >
+          <div class="card text-center w-100">
             <img src="fend.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">FrontEnd Development</h5>
@@ -178,13 +178,14 @@
               <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
-           
+
             <div class="mb-3 text-area">
-              <div>  <label for="message">Leave Your comments:</label></div>
-            
-            <textarea name="message" id="message" cols="60" rows="8" placeholder="Please leave your comments, Your comments are appreciated!"></textarea>
+              <div> <label for="message">Leave Your comments:</label></div>
+
+              <textarea name="message" id="message" cols="30" rows="8"
+                placeholder="Please leave your comments, Your comments are appreciated!"></textarea>
             </div>
-            <button type="submit" class="btn btn-outline">Submit</button>
+            <button id="btn-submit" type="submit" class="btn btn-outline" onClick="alert()">Submit</button>
           </form>
 
         </div>
@@ -195,9 +196,35 @@
 
 
 
-<div id="footer">
-  
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+
+
+      <div class="col-lg-6 col-12">
+        <div class="text-center">
+          <h3 id="foot-heading">Quick Links</h3>
+         <div class="links text-center">
+         <a href="" target="_blank"> <img src="insta.png" alt="instagram" class="img-fluid"></a>
+         <a href="https://web.whatsapp.com/" target="_blank"> <img src="what.png" alt="whatsapp" class="img-fluid"></a>
+         <a href="https://www.linkedin.com/in/asad-khatri-22ba971ba/" target="_blank"> <img src="linked.png" alt="Linkedin" class="img-fluid"></a>
+         <a href="https://github.com/AsadKhatri1" target="_blank"> <img src="github.png" alt="hithub" class="img-fluid"></a>
+         <a href="https://www.facebook.com/asad.khatri.96930/" target="_blank"> <img src="fb.png" alt="facebook" class="img-fluid"></a>
+         </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="text-center">
+          <h3 id="foot-heading">Contact Information</h3>
+          <img src="call.png" alt="call" width="50px" height="50px"><span>+92 303 8905556</span>
+          <img src="email.png" alt="email" width="50px" height="50px"><span>asadkhatri2410@gmail.com</span>
+        </div>
 </div>
+      </div>
+
+    </div>
+  </div>
 
 
 
@@ -208,11 +235,12 @@
 
 
 
-
+  <script src="mind.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

@@ -1,11 +1,11 @@
 *{
     scroll-behavior:smooth;
+    margin: 0;
+    padding: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
-@media only screen and (max-width: 990px){
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
 #intro{
     display: flex;
     flex-direction: column;
@@ -79,4 +79,21 @@ justify-content: center;
     margin-top: 10px;
     min-height: 100vh;
     height: auto;
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+#footer{
+    background-color: rgb(19, 18, 18);
+    color: white;
+}
+#foot-heading{
+    font-family: 'Titillium Web', sans-serif;
+}
+.links{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
 }
