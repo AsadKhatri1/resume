@@ -85,8 +85,15 @@ align-items: center;
 justify-content: center;
 }
 #footer{
-    background-color: rgb(19, 18, 18);
+    background-color: rgb(51, 50, 50);
     color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    list-style: none;
 }
 #foot-heading{
     font-family: 'Titillium Web', sans-serif;
