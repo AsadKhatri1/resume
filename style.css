@@ -32,6 +32,11 @@
     font-weight: bold;
     font-size: larger;
 }
+.list-edu-s{
+    font-weight: bold;
+    font-size: larger;
+    margin: 25px;
+}
 #about{
    min-height: 100vh;
    height: auto;
@@ -74,6 +79,12 @@ justify-content: center;
     flex-direction: row;
     align-items:center ;
     justify-content: center;
+}
+.align-center{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
 }
 #contact{
     margin-top: 10px;
